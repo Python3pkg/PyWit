@@ -41,8 +41,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PyWit'
-copyright = u'2014, Lex Toumbourou'
+project = 'PyWit'
+copyright = '2014, Lex Toumbourou'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,8 +184,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PyWit.tex', u'PyWit Documentation',
-   u'Lex Toumbourou', 'manual'),
+  ('index', 'PyWit.tex', 'PyWit Documentation',
+   'Lex Toumbourou', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,8 +214,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'pywit', u'PyWit Documentation',
-     [u'Lex Toumbourou'], 1)
+    ('index', 'pywit', 'PyWit Documentation',
+     ['Lex Toumbourou'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,8 +228,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PyWit', u'PyWit Documentation',
-   u'Lex Toumbourou', 'PyWit', 'One line description of project.',
+  ('index', 'PyWit', 'PyWit Documentation',
+   'Lex Toumbourou', 'PyWit', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -15,5 +15,5 @@ if __name__ == '__main__':
         os.environ['WIT_ACCESS_TOKEN'] = getpass('Enter Wit Access Token: ')
     wit_token = os.environ['WIT_ACCESS_TOKEN']
     w = wit.Wit(wit_token)
-    input_text = raw_input('What should I send up? ')
+    input_text = input('What should I send up? ')
     pprint(w.get_message(input_text))

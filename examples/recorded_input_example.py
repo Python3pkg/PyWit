@@ -2,7 +2,7 @@ import sys
 import os
 from pprint import pprint
 from getpass import getpass
-from StringIO import StringIO
+from io import StringIO
 import wave
 
 try:
